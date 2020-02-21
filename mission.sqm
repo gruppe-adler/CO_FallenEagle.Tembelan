@@ -11057,7 +11057,7 @@ class Mission
 							};
 							id=1346;
 							type="O_Soldier_AR_F";
-							atlOffset=11.297049;
+							atlOffset=11.297048;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -21363,12 +21363,12 @@ class Mission
 				angles[]={0,4.8518162,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2511;
 			type="Land_TripodScreen_01_large_sand_F";
+			atlOffset=3.4199514;
 		};
 		class Item93
 		{
@@ -21379,12 +21379,12 @@ class Mission
 				angles[]={0,1.5670182,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2512;
 			type="Land_PortableGenerator_01_sand_F";
+			atlOffset=3.4199514;
 		};
 		class Item94
 		{
@@ -21400,7 +21400,7 @@ class Mission
 			};
 			id=2513;
 			type="Land_IPPhone_01_sand_F";
-			atlOffset=0.7542305;
+			atlOffset=0.75418186;
 		};
 		class Item95
 		{
@@ -21411,12 +21411,12 @@ class Mission
 				angles[]={0,1.5435921,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2514;
 			type="Land_PortableServer_01_sand_F";
+			atlOffset=3.4199514;
 		};
 		class Item96
 		{
@@ -21443,12 +21443,12 @@ class Mission
 				angles[]={0,4.7160549,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2518;
 			type="Land_Stretcher_01_sand_F";
+			atlOffset=3.4199514;
 		};
 		class Item98
 		{
@@ -21459,12 +21459,12 @@ class Mission
 				angles[]={0,1.6055151,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2519;
 			type="Land_PortableCabinet_01_bookcase_sand_F";
+			atlOffset=3.4199514;
 		};
 		class Item99
 		{
@@ -21474,12 +21474,12 @@ class Mission
 				position[]={2344.552,10.598406,8259.1582};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2520;
 			type="Land_PortableDesk_01_sand_F";
+			atlOffset=3.5099516;
 		};
 		class Item100
 		{
@@ -21506,12 +21506,12 @@ class Mission
 				angles[]={0,0.4946222,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2522;
 			type="Land_DeskChair_01_sand_F";
+			atlOffset=3.5099516;
 		};
 		class Item102
 		{
@@ -21542,7 +21542,7 @@ class Mission
 			};
 			id=2524;
 			type="Land_MapBoard_01_Wall_Tanoa_F";
-			atlOffset=1.0268564;
+			atlOffset=1.0268078;
 		};
 		class Item104
 		{
@@ -21569,12 +21569,12 @@ class Mission
 				angles[]={0,0.78760177,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2537;
 			type="Land_WaterCooler_01_old_F";
+			atlOffset=3.4199514;
 		};
 		class Item106
 		{
@@ -21584,12 +21584,12 @@ class Mission
 				position[]={2349.4314,10.815751,8266.1533};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2538;
 			type="ACE_WaterBottle_Empty_Item";
+			atlOffset=3.4199514;
 		};
 		class Item107
 		{
@@ -21600,12 +21600,12 @@ class Mission
 				angles[]={0,5.3890228,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2539;
 			type="Land_Water_pipe_EP1";
+			atlOffset=3.4199514;
 		};
 		class Item108
 		{
@@ -24972,7 +24972,7 @@ class Mission
 						angles[]={0,5.5688138,0};
 					};
 					side="East";
-					flags=7;
+					flags=3;
 					class Attributes
 					{
 						class Inventory
@@ -25037,12 +25037,14 @@ class Mission
 					};
 					id=2727;
 					type="rhsgref_ins_squadleader";
+					atlOffset=3.4199514;
 				};
 			};
 			class Attributes
 			{
 			};
 			id=2726;
+			atlOffset=3.4199514;
 		};
 		class Item255
 		{
@@ -28349,7 +28351,7 @@ class Mission
 			};
 			id=3164;
 			type="land_gm_sandbags_01_window_01";
-			atlOffset=4.7745848;
+			atlOffset=4.7745953;
 		};
 		class Item428
 		{
@@ -28365,7 +28367,7 @@ class Mission
 			};
 			id=3165;
 			type="land_gm_sandbags_01_window_01";
-			atlOffset=4.9921741;
+			atlOffset=4.9921856;
 		};
 		class Item429
 		{
@@ -28382,6 +28384,7 @@ class Mission
 			};
 			id=3166;
 			type="land_gm_sandbags_01_door_01";
+			atlOffset=1.001358e-005;
 		};
 		class Item430
 		{
@@ -28398,6 +28401,7 @@ class Mission
 			};
 			id=3167;
 			type="land_gm_sandbags_01_door_01";
+			atlOffset=1.0490417e-005;
 		};
 		class Item431
 		{
@@ -28414,6 +28418,7 @@ class Mission
 			};
 			id=3168;
 			type="land_gm_sandbags_01_door_01";
+			atlOffset=1.0490417e-005;
 		};
 		class Item432
 		{
@@ -28430,6 +28435,7 @@ class Mission
 			};
 			id=3169;
 			type="land_gm_sandbags_01_door_01";
+			atlOffset=1.0490417e-005;
 		};
 		class Item433
 		{
@@ -28446,6 +28452,7 @@ class Mission
 			};
 			id=3170;
 			type="land_gm_sandbags_01_door_01";
+			atlOffset=1.0967255e-005;
 		};
 		class Item434
 		{
@@ -28462,6 +28469,7 @@ class Mission
 			};
 			id=3171;
 			type="land_gm_sandbags_01_door_01";
+			atlOffset=1.0490417e-005;
 		};
 		class Item435
 		{
@@ -28478,6 +28486,7 @@ class Mission
 			};
 			id=3172;
 			type="land_gm_sandbags_01_door_01";
+			atlOffset=1.0490417e-005;
 		};
 		class Item436
 		{
@@ -28503,13 +28512,12 @@ class Mission
 				angles[]={0,3.0504918,6.2818937};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=3180;
 			type="rhsgref_ins_uaz";
-			atlOffset=1.7166138e-005;
+			atlOffset=0.73610687;
 		};
 		class Item438
 		{
@@ -33805,7 +33813,7 @@ class Mission
 			};
 			id=3354;
 			type="Land_CampingChair_V1_F";
-			atlOffset=3.0517578e-005;
+			atlOffset=-9.1552734e-005;
 		};
 		class Item526
 		{
@@ -33922,6 +33930,7 @@ class Mission
 			};
 			id=3361;
 			type="O_Quadbike_01_F";
+			atlOffset=-0.0028076172;
 		};
 		class Item533
 		{
