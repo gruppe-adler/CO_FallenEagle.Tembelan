@@ -16,11 +16,11 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=728;
+		nextID=760;
 	};
 	class Camera
 	{
-		pos[]={2290.1948,57.594761,8192.1162};
+		pos[]={2256.209,57.594761,8150.9502};
 		dir[]={0.5871731,-0.38660693,0.71121097};
 		up[]={0.24615782,0.92223245,0.29815793};
 		aside[]={0.77117234,3.867317e-007,-0.63667369};
@@ -635,7 +635,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=57;
+									items=58;
 									class Item0
 									{
 										class data
@@ -1434,6 +1434,20 @@ class CustomAttributes
 											value="ace_medical_treatment_locationsurgicalkit";
 										};
 									};
+									class Item57
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="ace_medical_treatment_holsterrequired";
+										};
+									};
 								};
 							};
 						};
@@ -1450,7 +1464,7 @@ class CustomAttributes
 								};
 								class value
 								{
-									items=57;
+									items=58;
 									class Item0
 									{
 										class data
@@ -3972,6 +3986,51 @@ class CustomAttributes
 										};
 									};
 									class Item56
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+									class Item57
 									{
 										class data
 										{
