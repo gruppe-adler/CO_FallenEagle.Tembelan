@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=696;
+		nextID=728;
 	};
 	class Camera
 	{
-		pos[]={2213.5801,138.07822,8096.166};
-		dir[]={0.33019981,-0.62399888,0.70826852};
-		up[]={0.26367462,0.78141063,0.56557482};
-		aside[]={0.90636551,-1.7299317e-007,-0.42255262};
+		pos[]={2290.1948,57.594761,8192.1162};
+		dir[]={0.5871731,-0.38660693,0.71121097};
+		up[]={0.24615782,0.92223245,0.29815793};
+		aside[]={0.77117234,3.867317e-007,-0.63667369};
 	};
 };
 binarizationWanted=0;
@@ -17488,7 +17488,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{[this] call mcd_fnc_addCommanderInteraction}";
+						init="call{[this] call mcd_fnc_addCommanderInteraction; if (isServer) then { " \n "    this addEventHandler [""Killed"",{ " \n "        [_this select 0] spawn { " \n "            sleep 10; " \n "            removeFromRemainsCollector [_this select 0]; " \n "        }; " \n "    }]; " \n "};}";
 						name="mcd_objCommander";
 						class Inventory
 						{
