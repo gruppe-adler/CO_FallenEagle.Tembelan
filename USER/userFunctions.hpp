@@ -8,6 +8,7 @@ class mcd {
         file = "USER\functions";
         class addIntelInteraction {};
         class intelInteractionServer {};
+        class objHouseKilledEH {};
         class zeus_jdam {};
         class zeus_setBuildingDamage {};
     };

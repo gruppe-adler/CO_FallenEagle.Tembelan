@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3394;
+		nextID=3395;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=408;
+		nextID=472;
 	};
 	class Camera
 	{
-		pos[]={2253.1833,82.944626,8358.8086};
-		dir[]={0.4677963,-0.47059575,-0.74814945};
-		up[]={0.24950251,0.88233763,-0.39903083};
-		aside[]={-0.84790385,-2.0349398e-007,-0.53016835};
+		pos[]={2424.0039,48.12941,8254.9189};
+		dir[]={-0.9020949,-0.4272244,0.061551448};
+		up[]={-0.4262751,0.90411961,0.029085796};
+		aside[]={0.068076417,2.6493217e-007,0.99772114};
 	};
 };
 binarizationWanted=0;
@@ -4081,7 +4081,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=544;
+		items=545;
 		class Item0
 		{
 			dataType="Layer";
@@ -5459,7 +5459,7 @@ class Mission
 						};
 					};
 					id=948;
-					atlOffset=43.238079;
+					atlOffset=-7.4690552;
 				};
 				class Item13
 				{
@@ -9666,7 +9666,7 @@ class Mission
 				};
 			};
 			id=729;
-			atlOffset=13.831177;
+			atlOffset=-1.1052856;
 		};
 		class Item2
 		{
@@ -12836,12 +12836,12 @@ class Mission
 				angles[]={0,4.8518162,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2511;
 			type="Land_TripodScreen_01_large_sand_F";
+			atlOffset=3.4199505;
 		};
 		class Item93
 		{
@@ -12852,12 +12852,12 @@ class Mission
 				angles[]={0,1.5670182,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2512;
 			type="Land_PortableGenerator_01_sand_F";
+			atlOffset=3.4199505;
 		};
 		class Item94
 		{
@@ -12873,7 +12873,7 @@ class Mission
 			};
 			id=2513;
 			type="Land_IPPhone_01_sand_F";
-			atlOffset=0.7542305;
+			atlOffset=0.75418186;
 		};
 		class Item95
 		{
@@ -12884,12 +12884,12 @@ class Mission
 				angles[]={0,1.5435921,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2514;
 			type="Land_PortableServer_01_sand_F";
+			atlOffset=3.4199505;
 		};
 		class Item96
 		{
@@ -12916,12 +12916,12 @@ class Mission
 				angles[]={0,4.7160549,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2518;
 			type="Land_Stretcher_01_sand_F";
+			atlOffset=3.4199505;
 		};
 		class Item98
 		{
@@ -12932,12 +12932,12 @@ class Mission
 				angles[]={0,1.6055151,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2519;
 			type="Land_PortableCabinet_01_bookcase_sand_F";
+			atlOffset=3.4199505;
 		};
 		class Item99
 		{
@@ -12947,12 +12947,12 @@ class Mission
 				position[]={2344.552,10.598406,8259.1582};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2520;
 			type="Land_PortableDesk_01_sand_F";
+			atlOffset=3.5099506;
 		};
 		class Item100
 		{
@@ -12979,12 +12979,12 @@ class Mission
 				angles[]={0,0.4946222,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2522;
 			type="Land_DeskChair_01_sand_F";
+			atlOffset=3.5099506;
 		};
 		class Item102
 		{
@@ -13015,7 +13015,7 @@ class Mission
 			};
 			id=2524;
 			type="Land_MapBoard_01_Wall_Tanoa_F";
-			atlOffset=1.0268564;
+			atlOffset=1.0268078;
 		};
 		class Item104
 		{
@@ -13042,12 +13042,12 @@ class Mission
 				angles[]={0,0.78760177,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2537;
 			type="Land_WaterCooler_01_old_F";
+			atlOffset=3.4199505;
 		};
 		class Item106
 		{
@@ -13057,12 +13057,12 @@ class Mission
 				position[]={2349.4314,10.815751,8266.1533};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2538;
 			type="ACE_WaterBottle_Empty_Item";
+			atlOffset=3.4199505;
 		};
 		class Item107
 		{
@@ -13073,12 +13073,12 @@ class Mission
 				angles[]={0,5.3890228,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=2539;
 			type="Land_Water_pipe_EP1";
+			atlOffset=3.4199505;
 		};
 		class Item108
 		{
@@ -16441,13 +16441,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2346.9441,10.155957,8259.918};
-						angles[]={0,5.5688138,0};
+						position[]={2346.9441,10.15644,8259.918};
+						angles[]={0,5.5688219,0};
 					};
 					side="East";
 					flags=7;
 					class Attributes
 					{
+						name="mcd_objCommander";
 						class Inventory
 						{
 							class handgun
@@ -16510,12 +16511,56 @@ class Mission
 					};
 					id=2727;
 					type="rhsgref_ins_squadleader";
+					atlOffset=0.00043392181;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="RHS_Male01RUS";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						nAttributes=2;
+					};
 				};
 			};
 			class Attributes
 			{
 			};
 			id=2726;
+			atlOffset=0.00043392181;
 		};
 		class Item255
 		{
@@ -25573,16 +25618,27 @@ class Mission
 			id=3393;
 			type="Land_File2_F";
 		};
+		class Item544
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={2349.0359,5.98,8265.9609};
+			};
+			init="call{[this] call mcd_fnc_objHouseKilledEH}";
+			id=3394;
+			type="Logic";
+		};
 	};
 	class Connections
 	{
 		class LinkIDProvider
 		{
-			nextID=89;
+			nextID=92;
 		};
 		class Links
 		{
-			items=89;
+			items=92;
 			class Item0
 			{
 				linkID=0;
@@ -26468,6 +26524,36 @@ class Mission
 				linkID=88;
 				item0=2727;
 				item1=178;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item89
+			{
+				linkID=89;
+				item0=3394;
+				item1=3163;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item90
+			{
+				linkID=90;
+				item0=2524;
+				item1=3394;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item91
+			{
+				linkID=91;
+				item0=2523;
+				item1=3394;
 				class CustomData
 				{
 					type="Sync";
