@@ -25,7 +25,10 @@
     [objNull,"Task abgebrochen."] call BIS_fnc_showCuratorFeedbackMessage;
 }] call zen_custom_modules_fnc_register;
 
-
 if (isServer) then {
     [] execVM "USER\scripts\saveTeleportPositions.sqf";
+};
+
+if !(missionNamespace getVariable ["mcd_playersTeleported",false]) then {    
+    ace_map_BFT_Enabled = false;
 };

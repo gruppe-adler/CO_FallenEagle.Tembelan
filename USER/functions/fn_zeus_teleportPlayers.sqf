@@ -2,6 +2,7 @@ if (missionNamespace getVariable ["mcd_playersTeleported",false]) exitWith {
     [objNull,"Players already teleported."] call BIS_fnc_showCuratorFeedbackMessage;
 };
 missionNamespace setVariable ["mcd_playersTeleported",true,true];
+missionNamespace setVariable ["ace_map_BFT_Enabled",true,true];
 
 {
     [{
