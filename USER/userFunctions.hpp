@@ -12,6 +12,7 @@ class mcd {
         class createDiaryRecord {};
         class intelInteractionServer {};
         class objHouseKilledEH {};
+        class zeus_endMission {};
         class zeus_jdam {};
         class zeus_setBuildingDamage {};
     };
