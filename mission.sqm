@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=472;
+		nextID=504;
 	};
 	class Camera
 	{
-		pos[]={2424.0039,48.12941,8254.9189};
-		dir[]={-0.9020949,-0.4272244,0.061551448};
-		up[]={-0.4262751,0.90411961,0.029085796};
-		aside[]={0.068076417,2.6493217e-007,0.99772114};
+		pos[]={2288.9285,12.620224,8243.0723};
+		dir[]={0.43205744,-0.72791392,-0.53252184};
+		up[]={0.45863435,0.68564129,-0.56527871};
+		aside[]={-0.7765947,2.7706847e-007,-0.63008213};
 	};
 };
 binarizationWanted=0;
@@ -24904,13 +24904,14 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2295.2556,5.1873517,8237.4209};
-				angles[]={6.2751846,0,0.029989703};
+				position[]={2295.2554,5.1873426,8237.4209};
+				angles[]={6.2751913,0,0.029984757};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{null = [this,2] call mcd_fnc_addIntelInteraction;}";
 			};
 			id=3340;
 			type="rhs_flightrecorder_assembled";
