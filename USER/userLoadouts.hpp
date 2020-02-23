@@ -369,4 +369,5 @@ class co_fallenEagle {
 			watch = "ItemWatch";
 			nvgoggles = "NVGoggles_OPFOR";
         };
+    };
 };
