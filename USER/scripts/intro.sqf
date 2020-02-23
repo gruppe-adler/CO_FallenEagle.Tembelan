@@ -16,10 +16,6 @@ private _fnc_text = {
 
 ["BlackAndWhite",1,false] call BIS_fnc_setPPeffectTemplate;
 [0,1,false,true] call BIS_fnc_cinemaBorder;
-private _ppFilmGrain =ppEffectCreate ["FilmGrain",2000];
-_ppFilmGrain ppEffectEnable true;
-_ppFilmGrain ppEffectAdjust [0.22,0.12,0.12,0.12,0.12,true];
-_ppFilmGrain ppEffectCommit 1;
 
 sleep 1;
 playSound "mcd_introMusic";
@@ -67,12 +63,8 @@ sleep 0.8;
 
 ["Default",1,false] call BIS_fnc_setPPeffectTemplate;
 [1,1,false,true] call BIS_fnc_cinemaBorder;
-_ppFilmGrain ppEffectAdjust [0.005,1.25,2.01,0.75,1.0,true];
-_ppFilmGrain ppEffectCommit 1;
-sleep 1;
-ppEffectDestroy _ppFilmGrain;
 
-sleep 2;
+sleep 3;
 
 // ZEIT >> INFOTEXT
 date params ["_year","_month","_day","_hour","_minute"];

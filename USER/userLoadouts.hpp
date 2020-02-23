@@ -204,6 +204,7 @@ class co_fallenEagle {
         class HeavyGunner_F: Soldier_F {
             primaryWeapon = "LMG_Zafir_F";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
+            primaryWeaponMuzzle = "";
             handgunWeapon = "hgun_Pistol_heavy_01_green_F";
             handgunWeaponMuzzle = "hlc_muzzle_Evo40";
             handgunWeaponPointer = "hlc_acc_DBALPL";
