@@ -16,7 +16,7 @@ sleep 10;
 [[],"USER\scripts\intro.sqf"] remoteExec ["execVM",0,false];
 
 sleep 20;
-skipTime (24 - dayTime) + 5.83;
+skipTime ((24 - dayTime) + 5.83);
 
 {
     [{
@@ -26,8 +26,8 @@ skipTime (24 - dayTime) + 5.83;
     },[_x,_forEachIndex],random 3] call CBA_fnc_waitAndExecute;
 } forEach playableUnits;
 
-{deleteVehicle _x} forEach (crew mcd_introHeli);
-deleteVehicle mcd_introHeli;
+/* {deleteVehicle _x} forEach (crew mcd_introHeli);
+deleteVehicle mcd_introHeli; */
 
 // DEBUG
 /* mcd_introHeli setFuel 0;
