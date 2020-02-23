@@ -5,54 +5,61 @@
 
 
 class co_fallenEagle {
-	class AllUnits {
-		uniform = "SMM_Uniform_BW_FT";
-		vest = "SMM_Vest_BW_FT";
-		backpack = "";
-		headgear = "SMM_Helmet_A_BW_FT";
-		primaryWeapon = "rhs_weap_hk416d10";
-        primaryWeaponMagazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
-		primaryWeaponOptics = "rhsusf_acc_g33_T1";
-		primaryWeaponPointer = "";
-		primaryWeaponMuzzle = "";
-        primaryWeaponUnderbarrel = "";
-		primaryWeaponUnderbarrelMagazine = "";
-        secondaryWeapon = "";
-        secondaryWeaponMagazine = "";
-		handgunWeapon = "rhsusf_weap_glock17g4";
-        handgunWeaponMagazine = "rhsusf_mag_17Rnd_9x19_JHP";
-		binoculars = "Binocular";
-		map = "ItemMap";
-		compass = "ItemCompass";
-		watch = "ItemWatch";
-		gps = "ItemGPS";
-		radio = "tfar_anprc152";
-		nvgoggles = "";
-    };
+	
     class Type {
         //Rifleman
         class Soldier_F {
-            addItemsToUniform[] = {
-                LIST_1("ACE_MapTools"),
-                LIST_1("ACE_DefusalKit"),
-                LIST_2("ACE_CableTie"),
-                LIST_1("ACE_Flashlight_MX991"),
-            };
-            addItemsToVest[] = {
-                LIST_2("HandGrenade"),
-                LIST_2("SmokeShell"),
-                LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
-                LIST_7("rhs_mag_30Rnd_556x45_Mk318_Stanag")
-            };
-        };
+			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMuzzle = "muzzle_snds_M";
+			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
+			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+			handgunWeapon = "hgun_Pistol_heavy_01_green_F";
+			handgunWeaponMuzzle = "hlc_muzzle_Evo40";
+			handgunWeaponPointer = "hlc_acc_DBALPL";
+			handgunWeaponOptics = "optic_MRD_black";
+			uniform = "LOP_U_IRA_Fatigue_GRK_OLV";
+			addItemsToUniform[] = {LIST_4("ACE_packingBandage"),LIST_4("ACE_elasticBandage"),LIST_4("ACE_quikclot"),LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red"),LIST_3("11Rnd_45ACP_Mag")};
+			vest = "LOP_V_CarrierLite_OLV";
+			addItemsToVest[] = {LIST_2("SmokeShell"),LIST_2("HandGrenade")};
+			backpack = "B_AssaultPack_blk";
+			addItemsToBackpack[] = {LIST_4("ACE_tourniquet"),LIST_4("ACE_splint"),LIST_2("ACE_morphine"),LIST_2("ACE_epinephrine")};
+			headgear = "rhsusf_opscore_fg_pelt_cam";
+			goggles = "rhs_googles_clear";
+			map = "ItemMap";
+			gps = "ItemGPS";
+			radio = "TFAR_anprc152";
+			compass = "ItemCompass";
+			watch = "ItemWatch";
+			nvgoggles = "NVGoggles_OPFOR";
+			};
+};
 
         //Asst. Autorifleman
         class soldier_AAR_F: Soldier_F {
-            backpack = "SMM_Kitbag_BW_FT";
-            addItemsToBackpack[] = {
-                LIST_2("rhs_200rnd_556x45_M_SAW"),
-                "rhs_200rnd_556x45_T_SAW"
-            };
+			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMuzzle = "muzzle_snds_M";
+			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
+			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+			handgunWeapon = "hgun_Pistol_heavy_01_green_F";
+			handgunWeaponMuzzle = "hlc_muzzle_Evo40";
+			handgunWeaponPointer = "hlc_acc_DBALPL";
+			handgunWeaponOptics = "optic_MRD_black";
+			uniform = "LOP_U_IRA_Fatigue_GRK_OLV";
+			addItemsToUniform[] = {LIST_4("ACE_packingBandage"),LIST_4("ACE_elasticBandage"),LIST_4("ACE_quikclot"),LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red"),LIST_3("11Rnd_45ACP_Mag")};
+			vest = "LOP_V_CarrierLite_OLV";
+			addItemsToVest[] = {LIST_2("SmokeShell"),LIST_2("HandGrenade")};
+			backpack = "B_AssaultPack_blk";
+			addItemsToBackpack[] = {LIST_4("ACE_tourniquet"),LIST_4("ACE_splint"),LIST_2("ACE_morphine"),LIST_2("ACE_epinephrine")};
+			headgear = "rhsusf_opscore_fg_pelt_cam";
+			goggles = "rhs_googles_clear";
+			map = "ItemMap";
+			gps = "ItemGPS";
+			radio = "TFAR_anprc152";
+			compass = "ItemCompass";
+			watch = "ItemWatch";
+			nvgoggles = "NVGoggles_OPFOR";
+};
+
         };
 
         //Asst. Gunner (MMG) / Ammo Bearer
@@ -87,21 +94,29 @@ class co_fallenEagle {
 
         //Autorifleman
         class soldier_AR_F: Soldier_F {
-            primaryWeapon = "rhs_weap_m249_pip_S";
-            primaryWeaponPointer = "";
-            primaryWeaponMagazine = "rhs_200rnd_556x45_T_SAW";
-            handgunWeapon = "";
-            handgunWeaponMagazine = "";
-            backpack = "SMM_Kitbag_BW_FT";
-            addItemsToBackpack[] = {
-                LIST_2("rhs_200rnd_556x45_M_SAW"),
-                "rhsusf_100Rnd_556x45_soft_pouch"
-            };
-            addItemsToVest[] = {
-                LIST_2("HandGrenade"),
-                LIST_2("SmokeShell")
-            };
-        };
+			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMuzzle = "muzzle_snds_M";
+			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
+			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+			handgunWeapon = "hgun_Pistol_heavy_01_green_F";
+			handgunWeaponMuzzle = "hlc_muzzle_Evo40";
+			handgunWeaponPointer = "hlc_acc_DBALPL";
+			handgunWeaponOptics = "optic_MRD_black";
+			uniform = "LOP_U_IRA_Fatigue_GRK_OLV";
+			addItemsToUniform[] = {LIST_4("ACE_packingBandage"),LIST_4("ACE_elasticBandage"),LIST_4("ACE_quikclot"),LIST_3("11Rnd_45ACP_Mag"),LIST_2("rhs_mag_100Rnd_556x45_M855A1_cmag_mixed")};
+			vest = "LOP_V_CarrierLite_OLV";
+			addItemsToVest[] = {LIST_2("SmokeShell"),LIST_2("HandGrenade"),LIST_2("rhs_mag_100Rnd_556x45_M855A1_cmag_mixed")};
+			backpack = "B_AssaultPack_blk";
+			addItemsToBackpack[] = {LIST_4("ACE_tourniquet"),LIST_4("ACE_splint"),LIST_2("ACE_morphine"),LIST_2("ACE_epinephrine"),"rhs_mag_100Rnd_556x45_M855A1_cmag_mixed"};
+			headgear = "rhsusf_opscore_fg_pelt_cam";
+			goggles = "rhs_googles_clear";
+			map = "ItemMap";
+			gps = "ItemGPS";
+			radio = "TFAR_anprc152";
+			compass = "ItemCompass";
+			watch = "ItemWatch";
+			nvgoggles = "NVGoggles_OPFOR";
+};
 
         //Combat Life Saver
         class medic_F: Soldier_F {
@@ -233,16 +248,28 @@ class co_fallenEagle {
 
         //Team Leader
         class Soldier_TL_F: Soldier_F {
-            primaryWeapon = "rhs_weap_hk416d10_m320";
-            addItemsToVest[] = {
-                LIST_2("HandGrenade"),
-                LIST_2("SmokeShell"),
-                LIST_2("rhsusf_mag_17Rnd_9x19_JHP"),
-                LIST_7("rhs_mag_30Rnd_556x45_Mk318_Stanag"),
-                LIST_2("1Rnd_SmokeRed_Grenade_shell"),
-                LIST_2("1Rnd_SmokeGreen_Grenade_shell"),
-                LIST_2("1Rnd_SmokeBlue_Grenade_shell"),
-                LIST_2("1Rnd_HE_Grenade_shell")
+			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMuzzle = "muzzle_snds_M";
+			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
+			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
+			handgunWeapon = "hgun_Pistol_heavy_01_green_F";
+			handgunWeaponMuzzle = "hlc_muzzle_Evo40";
+			handgunWeaponPointer = "hlc_acc_DBALPL";
+			handgunWeaponOptics = "optic_MRD_black";
+			uniform = "LOP_U_IRA_Fatigue_GRK_OLV";
+			addItemsToUniform[] = {LIST_4("ACE_packingBandage"),LIST_4("ACE_elasticBandage"),LIST_4("ACE_quikclot"),LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red"),LIST_3("11Rnd_45ACP_Mag"),"ACE_EntrenchingTool"};
+			vest = "LOP_V_CarrierLite_OLV";
+			addItemsToVest[] = {LIST_4("SmokeShell"),LIST_4("HandGrenade")};
+			backpack = "B_AssaultPack_blk";
+			addItemsToBackpack[] = {LIST_4("ACE_tourniquet"),LIST_4("ACE_splint"),LIST_2("ACE_morphine"),LIST_2("ACE_epinephrine")};
+			headgear = "rhsusf_opscore_fg_pelt_cam";
+			goggles = "rhs_googles_clear";
+			map = "ItemMap";
+			gps = "ItemGPS";
+			radio = "TFAR_anprc152";
+			compass = "ItemCompass";
+			watch = "ItemWatch";
+			nvgoggles = "NVGoggles_OPFOR";
             };
         };
     };

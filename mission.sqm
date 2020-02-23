@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1882.535,14.21966,4791.7222};
-		dir[]={0.97737527,-0.093875922,0.18961522};
-		up[]={0.092156053,0.99557865,0.017878808};
-		aside[]={0.19045626,2.9348303e-007,-0.98170775};
+		pos[]={1869.2535,17.135151,4788.5762};
+		dir[]={0.029801458,-0.69896853,0.71455055};
+		up[]={0.029126788,0.7151444,0.69836706};
+		aside[]={0.99914908,3.3172546e-007,-0.041670993};
 	};
 };
 binarizationWanted=0;
@@ -6246,7 +6246,7 @@ class Mission
 										isBackpack=0;
 										class MagazineCargo
 										{
-											items=2;
+											items=3;
 											class Item0
 											{
 												name="SmokeShell";
@@ -6258,6 +6258,12 @@ class Mission
 												name="HandGrenade";
 												count=2;
 												ammoLeft=1;
+											};
+											class Item2
+											{
+												name="rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
+												count=2;
+												ammoLeft=100;
 											};
 										};
 									};
