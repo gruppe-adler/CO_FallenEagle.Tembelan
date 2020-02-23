@@ -12,11 +12,19 @@ private _intelDisplayName = [
 ["grad_notification1",["INTEL",format ["%1 hat %2 gefunden. (Map >> Briefing)",name _caller,_intelDisplayName]]] remoteExec ["BIS_fnc_showNotification",0,false];
 
 private _intelDiaryText = [
-"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+"Dokument mit dem Siegel des IKAN-Regimes
 
-"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+Es beschreibt den erfolgreichen Abschuss eines unbekannten FLugzeuges.
+Offensichtlich gab es keine Überlebenden. Und es wurden bis auf den Flugschreiber, keine brauchbaren Informationen geborgen. 
+",
 
-"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+"Das Portemonnaie enthält einen Ausweis eines israelischen Militärangehörigen. Vermutlich handelt es sich hierbei um einen der Piloten. ",
+
+"SN: PD2220410400
+
+Die Seriennummer auf dem Flugschreiber ist eindeutig dem abgeschossenen Flugzeug zuzuweisen. 
+Unsere Techniker müssen diesen nun auswerten.
+"
 ] select _intelID;
 
 
