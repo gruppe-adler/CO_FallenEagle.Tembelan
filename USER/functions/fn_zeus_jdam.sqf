@@ -1,6 +1,6 @@
 #define PLANESPEED      400
 #define PLANEALTITUDE   800
-#define MISSILEDISTANCE 700
+#define MISSILEDISTANCE 850
 #define SOUNDDISTANCE   2600
 
 params ["_pos","_droppedOnObj"];
