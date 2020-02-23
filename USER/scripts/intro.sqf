@@ -1,5 +1,7 @@
 #define INTROLAYER  10
 
+if ((typeOf player) isEqualTo "VirtualCurator_F") exitWith {};
+
 private _fnc_text = {
     params ["_text","_duration",["_textSize",2.5],["_pos",[0,0.75,1,1]]];
     [

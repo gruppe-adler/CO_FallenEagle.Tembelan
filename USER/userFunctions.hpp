@@ -8,6 +8,7 @@ class mcd {
         file = "USER\functions";
         class addCommanderInteraction {};
         class addIntelInteraction {};
+        class addZeusModules {postInit = 1;};
         class commanderInteractionServer {};
         class createDiaryRecord {};
         class intelInteractionServer {};
