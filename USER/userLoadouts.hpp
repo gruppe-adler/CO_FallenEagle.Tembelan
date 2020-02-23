@@ -5,7 +5,7 @@
 
 
 class co_fallenEagle {
-	
+
     class Type {
         //Rifleman
         class Soldier_F {
@@ -31,8 +31,7 @@ class co_fallenEagle {
 			compass = "ItemCompass";
 			watch = "ItemWatch";
 			nvgoggles = "NVGoggles_OPFOR";
-			};
-};
+		};
 
         //Asst. Autorifleman
         class soldier_AAR_F: Soldier_F {
@@ -58,8 +57,6 @@ class co_fallenEagle {
 			compass = "ItemCompass";
 			watch = "ItemWatch";
 			nvgoggles = "NVGoggles_OPFOR";
-};
-
         };
 
         //Asst. Gunner (MMG) / Ammo Bearer
@@ -116,7 +113,7 @@ class co_fallenEagle {
 			compass = "ItemCompass";
 			watch = "ItemWatch";
 			nvgoggles = "NVGoggles_OPFOR";
-};
+        };
 
         //Combat Life Saver
         class medic_F: Soldier_F {
@@ -270,7 +267,6 @@ class co_fallenEagle {
 			compass = "ItemCompass";
 			watch = "ItemWatch";
 			nvgoggles = "NVGoggles_OPFOR";
-            };
         };
     };
 };
