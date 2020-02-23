@@ -11,6 +11,7 @@ mcd_endMissionConfirmationCount
 
 // object
 mcd_objHouse
+mcd_introHeli
 
 // locked office building doors
 BIS_Disabled_Door_1
