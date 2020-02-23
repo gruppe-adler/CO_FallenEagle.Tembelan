@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1253;
+		nextID=1286;
 	};
 	class Camera
 	{
-		pos[]={1877.4055,42.359161,4757.5195};
-		dir[]={0.17663851,-0.58571339,0.79104143};
-		up[]={0.12764582,0.81051558,0.5716368};
-		aside[]={0.97596824,4.0919986e-008,-0.21793264};
+		pos[]={1894.0249,15.664966,4792.3687};
+		dir[]={0.93622106,-0.27565065,0.21809839};
+		up[]={0.26849988,0.96124363,0.06254781};
+		aside[]={0.22688465,-9.7526936e-007,-0.97394687};
 	};
 };
 binarizationWanted=0;
@@ -6754,152 +6754,6 @@ class Mission
 							{
 								description="Schütze LMG@Alpha-1";
 								isPlayable=1;
-								class Inventory
-								{
-									class primaryWeapon
-									{
-										name="arifle_TRG21_F";
-										optics="rhsusf_acc_ACOG_RMR";
-										muzzle="muzzle_snds_M";
-										flashlight="rhsusf_acc_anpeq15_bk";
-										class primaryMuzzleMag
-										{
-											name="30Rnd_556x45_Stanag";
-											ammoLeft=30;
-										};
-									};
-									class handgun
-									{
-										name="hgun_Pistol_heavy_01_green_F";
-										optics="optic_MRD_black";
-										muzzle="hlc_muzzle_Evo40";
-										flashlight="hlc_acc_DBALPL";
-										class primaryMuzzleMag
-										{
-											name="11Rnd_45ACP_Mag";
-											ammoLeft=11;
-										};
-									};
-									class uniform
-									{
-										typeName="LOP_U_IRA_Fatigue_GRK_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=2;
-											class Item0
-											{
-												name="11Rnd_45ACP_Mag";
-												count=3;
-												ammoLeft=11;
-											};
-											class Item1
-											{
-												name="rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-												count=2;
-												ammoLeft=100;
-											};
-										};
-										class ItemCargo
-										{
-											items=3;
-											class Item0
-											{
-												name="ACE_packingBandage";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_elasticBandage";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_quikclot";
-												count=4;
-											};
-										};
-									};
-									class vest
-									{
-										typeName="LOP_V_CarrierLite_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=3;
-											class Item0
-											{
-												name="SmokeShell";
-												count=2;
-												ammoLeft=1;
-											};
-											class Item1
-											{
-												name="HandGrenade";
-												count=2;
-												ammoLeft=1;
-											};
-											class Item2
-											{
-												name="rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-												count=2;
-												ammoLeft=100;
-											};
-										};
-									};
-									class backpack
-									{
-										typeName="B_AssaultPack_blk";
-										isBackpack=1;
-										class MagazineCargo
-										{
-											items=1;
-											class Item0
-											{
-												name="rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-												count=1;
-												ammoLeft=100;
-											};
-										};
-										class ItemCargo
-										{
-											items=5;
-											class Item0
-											{
-												name="ACE_tourniquet";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_splint";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_morphine";
-												count=2;
-											};
-											class Item3
-											{
-												name="ACE_epinephrine";
-												count=2;
-											};
-											class Item4
-											{
-												name="ACE_EntrenchingTool";
-												count=1;
-											};
-										};
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-									radio="TFAR_anprc152";
-									gps="ItemGPS";
-									goggles="rhs_googles_clear";
-									hmd="NVGoggles_OPFOR";
-									headgear="rhsusf_opscore_fg_pelt_cam";
-								};
 							};
 							id=3583;
 							type="B_soldier_AR_F";
@@ -7056,136 +6910,6 @@ class Mission
 							{
 								description="Schütze@Alpha-1";
 								isPlayable=1;
-								class Inventory
-								{
-									class primaryWeapon
-									{
-										name="arifle_TRG21_F";
-										optics="rhsusf_acc_ACOG_RMR";
-										muzzle="muzzle_snds_M";
-										flashlight="rhsusf_acc_anpeq15_bk";
-										class primaryMuzzleMag
-										{
-											name="30Rnd_556x45_Stanag";
-											ammoLeft=30;
-										};
-									};
-									class handgun
-									{
-										name="hgun_Pistol_heavy_01_green_F";
-										optics="optic_MRD_black";
-										muzzle="hlc_muzzle_Evo40";
-										flashlight="hlc_acc_DBALPL";
-										class primaryMuzzleMag
-										{
-											name="11Rnd_45ACP_Mag";
-											ammoLeft=11;
-										};
-									};
-									class uniform
-									{
-										typeName="LOP_U_IRA_Fatigue_GRK_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=2;
-											class Item0
-											{
-												name="rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
-												count=9;
-												ammoLeft=30;
-											};
-											class Item1
-											{
-												name="11Rnd_45ACP_Mag";
-												count=3;
-												ammoLeft=11;
-											};
-										};
-										class ItemCargo
-										{
-											items=3;
-											class Item0
-											{
-												name="ACE_packingBandage";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_elasticBandage";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_quikclot";
-												count=4;
-											};
-										};
-									};
-									class vest
-									{
-										typeName="LOP_V_CarrierLite_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=2;
-											class Item0
-											{
-												name="SmokeShell";
-												count=2;
-												ammoLeft=1;
-											};
-											class Item1
-											{
-												name="HandGrenade";
-												count=2;
-												ammoLeft=1;
-											};
-										};
-									};
-									class backpack
-									{
-										typeName="B_AssaultPack_blk";
-										isBackpack=1;
-										class ItemCargo
-										{
-											items=5;
-											class Item0
-											{
-												name="ACE_tourniquet";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_splint";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_morphine";
-												count=2;
-											};
-											class Item3
-											{
-												name="ACE_epinephrine";
-												count=2;
-											};
-											class Item4
-											{
-												name="ACE_EntrenchingTool";
-												count=1;
-											};
-										};
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-									radio="TFAR_anprc152";
-									gps="ItemGPS";
-									goggles="rhs_googles_clear";
-									hmd="NVGoggles_OPFOR";
-									headgear="rhsusf_opscore_fg_pelt_cam";
-								};
 							};
 							id=3585;
 							type="B_Soldier_F";
@@ -7475,145 +7199,6 @@ class Mission
 							{
 								description="Schütze AT@Alpha-2";
 								isPlayable=1;
-								class Inventory
-								{
-									class primaryWeapon
-									{
-										name="arifle_TRG21_F";
-										optics="rhsusf_acc_ACOG_RMR";
-										muzzle="muzzle_snds_M";
-										flashlight="rhsusf_acc_anpeq15_bk";
-										class primaryMuzzleMag
-										{
-											name="30Rnd_556x45_Stanag";
-											ammoLeft=30;
-										};
-									};
-									class secondaryWeapon
-									{
-										name="rhs_weap_m72a7";
-										class primaryMuzzleMag
-										{
-											name="rhs_m72a7_mag";
-											ammoLeft=1;
-										};
-									};
-									class handgun
-									{
-										name="hgun_Pistol_heavy_01_green_F";
-										optics="optic_MRD_black";
-										muzzle="hlc_muzzle_Evo40";
-										flashlight="hlc_acc_DBALPL";
-										class primaryMuzzleMag
-										{
-											name="11Rnd_45ACP_Mag";
-											ammoLeft=11;
-										};
-									};
-									class uniform
-									{
-										typeName="LOP_U_IRA_Fatigue_GRK_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=2;
-											class Item0
-											{
-												name="rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
-												count=9;
-												ammoLeft=30;
-											};
-											class Item1
-											{
-												name="11Rnd_45ACP_Mag";
-												count=3;
-												ammoLeft=11;
-											};
-										};
-										class ItemCargo
-										{
-											items=3;
-											class Item0
-											{
-												name="ACE_packingBandage";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_elasticBandage";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_quikclot";
-												count=4;
-											};
-										};
-									};
-									class vest
-									{
-										typeName="LOP_V_CarrierLite_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=2;
-											class Item0
-											{
-												name="SmokeShell";
-												count=2;
-												ammoLeft=1;
-											};
-											class Item1
-											{
-												name="HandGrenade";
-												count=2;
-												ammoLeft=1;
-											};
-										};
-									};
-									class backpack
-									{
-										typeName="B_AssaultPack_blk";
-										isBackpack=1;
-										class ItemCargo
-										{
-											items=5;
-											class Item0
-											{
-												name="ACE_tourniquet";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_splint";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_morphine";
-												count=2;
-											};
-											class Item3
-											{
-												name="ACE_epinephrine";
-												count=2;
-											};
-											class Item4
-											{
-												name="ACE_EntrenchingTool";
-												count=1;
-											};
-										};
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-									radio="TFAR_anprc152";
-									gps="ItemGPS";
-									goggles="rhs_googles_clear";
-									hmd="NVGoggles_OPFOR";
-									headgear="rhsusf_opscore_fg_pelt_cam";
-								};
 							};
 							id=3589;
 							type="B_soldier_LAT_F";
@@ -7692,136 +7277,6 @@ class Mission
 							{
 								description="Schütze@Alpha-2";
 								isPlayable=1;
-								class Inventory
-								{
-									class primaryWeapon
-									{
-										name="arifle_TRG21_F";
-										optics="rhsusf_acc_ACOG_RMR";
-										muzzle="muzzle_snds_M";
-										flashlight="rhsusf_acc_anpeq15_bk";
-										class primaryMuzzleMag
-										{
-											name="30Rnd_556x45_Stanag";
-											ammoLeft=30;
-										};
-									};
-									class handgun
-									{
-										name="hgun_Pistol_heavy_01_green_F";
-										optics="optic_MRD_black";
-										muzzle="hlc_muzzle_Evo40";
-										flashlight="hlc_acc_DBALPL";
-										class primaryMuzzleMag
-										{
-											name="11Rnd_45ACP_Mag";
-											ammoLeft=11;
-										};
-									};
-									class uniform
-									{
-										typeName="LOP_U_IRA_Fatigue_GRK_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=2;
-											class Item0
-											{
-												name="rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
-												count=9;
-												ammoLeft=30;
-											};
-											class Item1
-											{
-												name="11Rnd_45ACP_Mag";
-												count=3;
-												ammoLeft=11;
-											};
-										};
-										class ItemCargo
-										{
-											items=3;
-											class Item0
-											{
-												name="ACE_packingBandage";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_elasticBandage";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_quikclot";
-												count=4;
-											};
-										};
-									};
-									class vest
-									{
-										typeName="LOP_V_CarrierLite_OLV";
-										isBackpack=0;
-										class MagazineCargo
-										{
-											items=2;
-											class Item0
-											{
-												name="SmokeShell";
-												count=2;
-												ammoLeft=1;
-											};
-											class Item1
-											{
-												name="HandGrenade";
-												count=2;
-												ammoLeft=1;
-											};
-										};
-									};
-									class backpack
-									{
-										typeName="B_AssaultPack_blk";
-										isBackpack=1;
-										class ItemCargo
-										{
-											items=5;
-											class Item0
-											{
-												name="ACE_tourniquet";
-												count=4;
-											};
-											class Item1
-											{
-												name="ACE_splint";
-												count=4;
-											};
-											class Item2
-											{
-												name="ACE_morphine";
-												count=2;
-											};
-											class Item3
-											{
-												name="ACE_epinephrine";
-												count=2;
-											};
-											class Item4
-											{
-												name="ACE_EntrenchingTool";
-												count=1;
-											};
-										};
-									};
-									map="ItemMap";
-									compass="ItemCompass";
-									watch="ItemWatch";
-									radio="TFAR_anprc152";
-									gps="ItemGPS";
-									goggles="rhs_googles_clear";
-									hmd="NVGoggles_OPFOR";
-									headgear="rhsusf_opscore_fg_pelt_cam";
-								};
 							};
 							id=3590;
 							type="B_Soldier_F";
@@ -12054,6 +11509,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1627;
 			type="Land_Cargo20_light_green_F";
@@ -12070,6 +11526,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1628;
 			type="Land_Cargo20_light_green_F";
@@ -12087,6 +11544,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1629;
 			type="Land_Cargo10_light_blue_F";
@@ -12104,6 +11562,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1630;
 			type="Land_Cargo10_light_green_F";
@@ -12120,6 +11579,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=1631;
 			type="Land_Cargo10_light_blue_F";
@@ -12632,14 +12092,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={2852.7944,149.90309,7912.856};
-						angles[]={0.013995145,4.9741883,0.0060001095};
+						position[]={2852.7939,149.90309,7912.856};
+						angles[]={0.01399754,4.9741883,0.0060039326};
 					};
 					side="Empty";
 					flags=4;
 					class Attributes
 					{
 						skill=0.2;
+						disableSimulation=1;
 					};
 					id=1687;
 					type="Land_GarbagePallet_F";
@@ -13781,6 +13242,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=2491;
 			type="Base_WarfareBContructionSite";
@@ -13797,6 +13259,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=2492;
 			type="Base_WarfareBContructionSite";
@@ -13813,6 +13276,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=2493;
 			type="Base_WarfareBContructionSite";
@@ -22880,6 +22344,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3328;
 			type="Land_HistoricalPlaneDebris_02_F";
@@ -22896,6 +22361,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3329;
 			type="Land_HistoricalPlaneDebris_04_F";
@@ -22912,6 +22378,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3330;
 			type="Land_HistoricalPlaneDebris_03_F";
@@ -22922,17 +22389,17 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2293.1599,5.277514,8233.2246};
-				angles[]={6.2751846,2.7672386,0.029989703};
+				position[]={2293.1604,5.2775393,8233.2246};
+				angles[]={6.2751913,2.7672369,0.029984757};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3331;
 			type="Land_HistoricalPlaneDebris_01_F";
-			atlOffset=-1.1444092e-005;
 		};
 		class Item478
 		{
@@ -22946,6 +22413,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3332;
 			type="Land_HistoricalPlaneWreck_02_wing_left_F";
@@ -22963,6 +22431,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3333;
 			type="Land_HistoricalPlaneDebris_02_F";
@@ -28781,6 +28250,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3850;
 			type="Land_Cargo20_light_green_F";
@@ -28798,6 +28268,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3851;
 			type="Land_Cargo20_light_green_F";
@@ -28815,6 +28286,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3852;
 			type="Land_Cargo10_light_blue_F";
@@ -28832,6 +28304,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3853;
 			type="Land_Cargo10_light_blue_F";
@@ -28848,6 +28321,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3854;
 			type="Land_Cargo20_light_green_F";
@@ -28865,6 +28339,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3855;
 			type="Land_Cargo20_light_green_F";
@@ -28882,6 +28357,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3856;
 			type="Land_Cargo10_light_blue_F";
@@ -28898,6 +28374,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3857;
 			type="Land_Cargo10_light_blue_F";
@@ -28915,6 +28392,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3858;
 			type="Base_WarfareBContructionSite";
@@ -28931,6 +28409,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3859;
 			type="Base_WarfareBContructionSite";
@@ -28947,6 +28426,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3860;
 			type="Base_WarfareBContructionSite";
@@ -28963,6 +28443,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
+				disableSimulation=1;
 			};
 			id=3861;
 			type="Base_WarfareBContructionSite";

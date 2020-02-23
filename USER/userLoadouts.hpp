@@ -10,6 +10,7 @@ class co_fallenEagle {
         //Rifleman
         class Soldier_F {
 			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
 			primaryWeaponMuzzle = "muzzle_snds_M";
 			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
 			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -36,6 +37,7 @@ class co_fallenEagle {
         //Asst. Autorifleman
         class soldier_AAR_F: Soldier_F {
 			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
 			primaryWeaponMuzzle = "muzzle_snds_M";
 			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
 			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -62,6 +64,7 @@ class co_fallenEagle {
         //Asst. Gunner (MMG) / Ammo Bearer
         class soldier_A_F: Soldier_F {
             primaryWeapon = "arifle_TRG21_F";
+            primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
             primaryWeaponMuzzle = "muzzle_snds_M";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk_light";
             primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -101,6 +104,7 @@ class co_fallenEagle {
         //Asst. Missile Specialist (AT)
         class soldier_AAT_F: Soldier_F {
             primaryWeapon = "arifle_TRG21_F";
+            primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
             primaryWeaponMuzzle = "muzzle_snds_M";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk_light";
             primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -127,6 +131,7 @@ class co_fallenEagle {
         //Autorifleman
         class soldier_AR_F: Soldier_F {
 			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
 			primaryWeaponMuzzle = "muzzle_snds_M";
 			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
 			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -153,6 +158,7 @@ class co_fallenEagle {
         //Combat Life Saver
         class medic_F: Soldier_F {
             primaryWeapon = "arifle_TRG21_F";
+            primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
             primaryWeaponMuzzle = "muzzle_snds_M";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
             primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -203,6 +209,7 @@ class co_fallenEagle {
         //Heavy Gunner (MMG)
         class HeavyGunner_F: Soldier_F {
             primaryWeapon = "LMG_Zafir_F";
+            primaryWeaponMagazine= "150Rnd_762x54_Box_Tracer";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
             primaryWeaponMuzzle = "";
             handgunWeapon = "hgun_Pistol_heavy_01_green_F";
@@ -210,7 +217,7 @@ class co_fallenEagle {
             handgunWeaponPointer = "hlc_acc_DBALPL";
             handgunWeaponOptics = "optic_MRD_black";
             uniform = "LOP_U_IRA_Fatigue_GRK_OLV";
-            addItemsToUniform[] = {LIST_3("11Rnd_45ACP_Mag"),LIST_9("rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red")};
+            addItemsToUniform[] = {LIST_3("11Rnd_45ACP_Mag")};
             vest = "LOP_V_CarrierLite_OLV";
             addItemsToVest[] = {LIST_2("SmokeShell"),LIST_2("HandGrenade"),"150Rnd_762x54_Box"};
             backpack = "B_Carryall_oli";
@@ -258,6 +265,7 @@ class co_fallenEagle {
         //Missile Specialist (AT)
         class soldier_AT_F: Soldier_F {
             primaryWeapon = "arifle_TRG21_F";
+            primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
             primaryWeaponMuzzle = "muzzle_snds_M";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk_light";
             primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -294,6 +302,7 @@ class co_fallenEagle {
         //Rifleman (AT)
         class soldier_LAT_F: Soldier_F {
             primaryWeapon = "arifle_TRG21_F";
+            primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
             primaryWeaponMuzzle = "muzzle_snds_M";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
             primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -321,6 +330,7 @@ class co_fallenEagle {
         //Squad Leader
         class Soldier_SL_F: Soldier_F {
             primaryWeapon = "arifle_TRG21_F";
+            primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
             primaryWeaponMuzzle = "muzzle_snds_M";
             primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
             primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
@@ -348,6 +358,7 @@ class co_fallenEagle {
         //Team Leader
         class Soldier_TL_F: Soldier_F {
 			primaryWeapon = "arifle_TRG21_F";
+			primaryWeaponMagazine= "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
 			primaryWeaponMuzzle = "muzzle_snds_M";
 			primaryWeaponPointer = "rhsusf_acc_anpeq15_bk";
 			primaryWeaponOptics = "rhsusf_acc_ACOG_RMR";
