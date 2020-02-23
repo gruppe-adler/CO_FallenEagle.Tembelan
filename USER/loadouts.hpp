@@ -18,7 +18,7 @@
 */
 
 
-loadoutFactionBlu = "";
+loadoutFactionBlu = "co_fallenEagle";
 loadoutFactionOpf = "";
 loadoutFactionInd = "";
 
