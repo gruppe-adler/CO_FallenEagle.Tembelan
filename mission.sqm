@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1869.2535,17.135151,4788.5762};
-		dir[]={0.029801458,-0.69896853,0.71455055};
-		up[]={0.029126788,0.7151444,0.69836706};
-		aside[]={0.99914908,3.3172546e-007,-0.041670993};
+		pos[]={1891.7639,14.566437,4791.2788};
+		dir[]={0.70662534,-0.33895007,0.62116015};
+		up[]={0.25458139,0.94079894,0.22379029};
+		aside[]={0.66024083,7.4272975e-008,-0.75108081};
 	};
 };
 binarizationWanted=0;
@@ -46,6 +46,7 @@ addons[]=
 	"A3_Weapons_F_Enoch_Pistols_Pistol_Heavy_01",
 	"A3_Weapons_F_Enoch_Acc",
 	"hlcweapons_core",
+	"A3_Weapons_F_Mark",
 	"tfar_handhelds",
 	"rhsusf_c_troops",
 	"ace_compat_rhs_usf3",
@@ -265,68 +266,68 @@ class AddonsMetaData
 		};
 		class Item13
 		{
+			className="A3_Weapons_F_Mark";
+			name="Arma 3 Marksmen - Weapons and Accessories";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item14
+		{
 			className="tfar_handhelds";
 			name="tfar_handhelds";
 			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
-		class Item14
+		class Item15
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item15
+		class Item16
 		{
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item16
+		class Item17
 		{
 			className="ace_nightvision";
 			name="ACE3 - Night Vision";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item17
+		class Item18
 		{
 			className="po_factions_eu";
 			name="po_factions_eu";
 			author="Leight, Keeway";
 		};
-		class Item18
+		class Item19
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item19
+		class Item20
 		{
 			className="po_factions_me";
 			name="po_factions_me";
 			author="Leight, Keeway";
 		};
-		class Item20
+		class Item21
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item21
+		class Item22
 		{
 			className="A3_Characters_F_Mark";
 			name="Arma 3 Marksmen - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
-		};
-		class Item22
-		{
-			className="A3_Weapons_F_Mark";
-			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -5547,6 +5548,145 @@ class Mission
 								description="Zugführer@Cmd";
 								isPlayable=1;
 								aiRadarUsage=544042752;
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="arifle_TRG21_F";
+										optics="rhsusf_acc_ACOG_RMR";
+										muzzle="muzzle_snds_M";
+										flashlight="rhsusf_acc_anpeq15_bk";
+										class primaryMuzzleMag
+										{
+											name="30Rnd_556x45_Stanag";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="hgun_Pistol_heavy_01_green_F";
+										optics="optic_MRD_black";
+										muzzle="hlc_muzzle_Evo40";
+										flashlight="hlc_acc_DBALPL";
+										class primaryMuzzleMag
+										{
+											name="11Rnd_45ACP_Mag";
+											ammoLeft=11;
+										};
+									};
+									class binocular
+									{
+										name="Laserdesignator_03";
+										class primaryMuzzleMag
+										{
+											name="Laserbatteries";
+											ammoLeft=1;
+										};
+									};
+									class uniform
+									{
+										typeName="LOP_U_IRA_Fatigue_GRK_OLV";
+										isBackpack=0;
+										class MagazineCargo
+										{
+											items=2;
+											class Item0
+											{
+												name="rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
+												count=9;
+												ammoLeft=30;
+											};
+											class Item1
+											{
+												name="11Rnd_45ACP_Mag";
+												count=3;
+												ammoLeft=11;
+											};
+										};
+										class ItemCargo
+										{
+											items=3;
+											class Item0
+											{
+												name="ACE_packingBandage";
+												count=4;
+											};
+											class Item1
+											{
+												name="ACE_elasticBandage";
+												count=4;
+											};
+											class Item2
+											{
+												name="ACE_quikclot";
+												count=4;
+											};
+										};
+									};
+									class vest
+									{
+										typeName="LOP_V_CarrierLite_OLV";
+										isBackpack=0;
+										class MagazineCargo
+										{
+											items=2;
+											class Item0
+											{
+												name="SmokeShell";
+												count=2;
+												ammoLeft=1;
+											};
+											class Item1
+											{
+												name="HandGrenade";
+												count=2;
+												ammoLeft=1;
+											};
+										};
+									};
+									class backpack
+									{
+										typeName="B_AssaultPack_blk";
+										isBackpack=1;
+										class ItemCargo
+										{
+											items=5;
+											class Item0
+											{
+												name="ACE_tourniquet";
+												count=4;
+											};
+											class Item1
+											{
+												name="ACE_splint";
+												count=4;
+											};
+											class Item2
+											{
+												name="ACE_morphine";
+												count=2;
+											};
+											class Item3
+											{
+												name="ACE_epinephrine";
+												count=2;
+											};
+											class Item4
+											{
+												name="ACE_EntrenchingTool";
+												count=1;
+											};
+										};
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+									radio="TFAR_anprc152";
+									gps="ItemGPS";
+									goggles="rhs_googles_clear";
+									hmd="NVGoggles_OPFOR";
+									headgear="rhsusf_opscore_fg_pelt_cam";
+								};
 							};
 							id=1272;
 							type="B_Soldier_SL_F";
@@ -5982,6 +6122,150 @@ class Mission
 								rank="CORPORAL";
 								description="Gruppensanitäter@Alpha";
 								isPlayable=1;
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="arifle_TRG21_F";
+										optics="rhsusf_acc_ACOG_RMR";
+										muzzle="muzzle_snds_M";
+										flashlight="rhsusf_acc_anpeq15_bk";
+										class primaryMuzzleMag
+										{
+											name="30Rnd_556x45_Stanag";
+											ammoLeft=30;
+										};
+									};
+									class handgun
+									{
+										name="hgun_Pistol_heavy_01_green_F";
+										optics="optic_MRD_black";
+										muzzle="hlc_muzzle_Evo40";
+										flashlight="hlc_acc_DBALPL";
+										class primaryMuzzleMag
+										{
+											name="11Rnd_45ACP_Mag";
+											ammoLeft=11;
+										};
+									};
+									class uniform
+									{
+										typeName="LOP_U_IRA_Fatigue_GRK_OLV";
+										isBackpack=0;
+										class MagazineCargo
+										{
+											items=2;
+											class Item0
+											{
+												name="rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
+												count=6;
+												ammoLeft=30;
+											};
+											class Item1
+											{
+												name="11Rnd_45ACP_Mag";
+												count=2;
+												ammoLeft=11;
+											};
+										};
+										class ItemCargo
+										{
+											items=3;
+											class Item0
+											{
+												name="ACE_packingBandage";
+												count=8;
+											};
+											class Item1
+											{
+												name="ACE_elasticBandage";
+												count=20;
+											};
+											class Item2
+											{
+												name="ACE_quikclot";
+												count=20;
+											};
+										};
+									};
+									class vest
+									{
+										typeName="LOP_V_CarrierLite_OLV";
+										isBackpack=0;
+										class MagazineCargo
+										{
+											items=2;
+											class Item0
+											{
+												name="SmokeShell";
+												count=2;
+												ammoLeft=1;
+											};
+											class Item1
+											{
+												name="HandGrenade";
+												count=2;
+												ammoLeft=1;
+											};
+										};
+										class ItemCargo
+										{
+											items=1;
+											class Item0
+											{
+												name="ACE_packingBandage";
+												count=12;
+											};
+										};
+									};
+									class backpack
+									{
+										typeName="B_AssaultPack_blk";
+										isBackpack=1;
+										class ItemCargo
+										{
+											items=6;
+											class Item0
+											{
+												name="ACE_tourniquet";
+												count=6;
+											};
+											class Item1
+											{
+												name="ACE_splint";
+												count=12;
+											};
+											class Item2
+											{
+												name="ACE_epinephrine";
+												count=15;
+											};
+											class Item3
+											{
+												name="ACE_morphine";
+												count=15;
+											};
+											class Item4
+											{
+												name="ACE_bloodIV_500";
+												count=10;
+											};
+											class Item5
+											{
+												name="ACE_salineIV_500";
+												count=10;
+											};
+										};
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+									radio="TFAR_anprc152";
+									gps="ItemGPS";
+									goggles="rhs_googles_clear";
+									hmd="NVGoggles_OPFOR";
+									headgear="rhsusf_opscore_fg_pelt_cam";
+								};
 							};
 							id=3580;
 							type="B_medic_F";
@@ -6895,6 +7179,145 @@ class Mission
 							{
 								description="Schütze AT@Alpha-2";
 								isPlayable=1;
+								class Inventory
+								{
+									class primaryWeapon
+									{
+										name="arifle_TRG21_F";
+										optics="rhsusf_acc_ACOG_RMR";
+										muzzle="muzzle_snds_M";
+										flashlight="rhsusf_acc_anpeq15_bk";
+										class primaryMuzzleMag
+										{
+											name="30Rnd_556x45_Stanag";
+											ammoLeft=30;
+										};
+									};
+									class secondaryWeapon
+									{
+										name="rhs_weap_m72a7";
+										class primaryMuzzleMag
+										{
+											name="rhs_m72a7_mag";
+											ammoLeft=1;
+										};
+									};
+									class handgun
+									{
+										name="hgun_Pistol_heavy_01_green_F";
+										optics="optic_MRD_black";
+										muzzle="hlc_muzzle_Evo40";
+										flashlight="hlc_acc_DBALPL";
+										class primaryMuzzleMag
+										{
+											name="11Rnd_45ACP_Mag";
+											ammoLeft=11;
+										};
+									};
+									class uniform
+									{
+										typeName="LOP_U_IRA_Fatigue_GRK_OLV";
+										isBackpack=0;
+										class MagazineCargo
+										{
+											items=2;
+											class Item0
+											{
+												name="rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red";
+												count=9;
+												ammoLeft=30;
+											};
+											class Item1
+											{
+												name="11Rnd_45ACP_Mag";
+												count=3;
+												ammoLeft=11;
+											};
+										};
+										class ItemCargo
+										{
+											items=3;
+											class Item0
+											{
+												name="ACE_packingBandage";
+												count=4;
+											};
+											class Item1
+											{
+												name="ACE_elasticBandage";
+												count=4;
+											};
+											class Item2
+											{
+												name="ACE_quikclot";
+												count=4;
+											};
+										};
+									};
+									class vest
+									{
+										typeName="LOP_V_CarrierLite_OLV";
+										isBackpack=0;
+										class MagazineCargo
+										{
+											items=2;
+											class Item0
+											{
+												name="SmokeShell";
+												count=2;
+												ammoLeft=1;
+											};
+											class Item1
+											{
+												name="HandGrenade";
+												count=2;
+												ammoLeft=1;
+											};
+										};
+									};
+									class backpack
+									{
+										typeName="B_AssaultPack_blk";
+										isBackpack=1;
+										class ItemCargo
+										{
+											items=5;
+											class Item0
+											{
+												name="ACE_tourniquet";
+												count=4;
+											};
+											class Item1
+											{
+												name="ACE_splint";
+												count=4;
+											};
+											class Item2
+											{
+												name="ACE_morphine";
+												count=2;
+											};
+											class Item3
+											{
+												name="ACE_epinephrine";
+												count=2;
+											};
+											class Item4
+											{
+												name="ACE_EntrenchingTool";
+												count=1;
+											};
+										};
+									};
+									map="ItemMap";
+									compass="ItemCompass";
+									watch="ItemWatch";
+									radio="TFAR_anprc152";
+									gps="ItemGPS";
+									goggles="rhs_googles_clear";
+									hmd="NVGoggles_OPFOR";
+									headgear="rhsusf_opscore_fg_pelt_cam";
+								};
 							};
 							id=3589;
 							type="B_soldier_LAT_F";
@@ -8207,7 +8630,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={1874.5358,12.914439,4819.2407};
+								position[]={1874.5637,12.914439,4819.7539};
 								angles[]={0,3.074887,0};
 							};
 							side="West";
@@ -25856,7 +26279,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[""rhs_fgm148_magazine_AT""],[6]],[[""B_UavTerminal"",""TFAR_anprc152""],[2,10]],[[],[]]],false]";
+							value="[[[[],[]],[[""rhs_fgm148_magazine_AT"",""rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red"",""150Rnd_762x51_Box_Tracer"",""SmokeShellRed"",""SmokeShellBlue""],[5,40,10,10,10]],[[""B_UavTerminal"",""TFAR_anprc152"",""ACE_wirecutter"",""ACE_fieldDressing"",""ACE_packingBandage"",""ACE_elasticBandage"",""ACE_splint"",""ACE_bloodIV"",""ACE_salineIV"",""ACE_quikclot""],[2,10,1,30,30,30,30,20,20,30]],[[],[]]],false]";
 						};
 					};
 				};
