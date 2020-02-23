@@ -12,7 +12,19 @@ if (missionNamespace getVariable ["mcd_missionEnding",false]) exitWith {
 
 missionNamespace setVariable ["mcd_missionEnding",true,true];
 
-sleep 5;
-[[],{
-    ["end1",true, true, true, true] spawn BIS_fnc_endMission;
-}] remoteExec ["spawn",0,false];
+sleep 2;
+
+private _text = "<img size= '6' style='vertical-align:middle' shadow='false' image='data\gruppe-adler.paa'/><br/><t size='.9' color='#FFFFFF'>MISSION ERFOLGREICH</t>";
+[_text,0,0,2,2] remoteExec ["BIS_fnc_dynamicText",0,false];
+["mcd_missionCompleted"] remoteExec ["playSound",0,false];
+
+sleep 8;
+
+// stops record, sends data and starts replay
+call GRAD_replay_fnc_stopRecord;
+// ends mission after replay is over
+[{
+    REPLAY_FINISHED
+}, {
+    ["END1"] remoteExec ["endMission",0,false]; // your custom end mission call or whatever you want to do after replay
+}, []] call CBA_fnc_waitUntilAndExecute;

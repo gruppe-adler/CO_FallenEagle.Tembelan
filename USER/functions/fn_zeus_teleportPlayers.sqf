@@ -7,6 +7,7 @@ if (missionNamespace getVariable ["mcd_playersTeleported",false]) exitWith {
 };
 missionNamespace setVariable ["mcd_playersTeleported",true,true];
 missionNamespace setVariable ["ace_map_BFT_Enabled",true,true];
+[] remoteExec ["GRAD_replay_fnc_init",0,true];
 
 mcd_introHeli setFuel 1;
 mcd_introHeli engineOn true;

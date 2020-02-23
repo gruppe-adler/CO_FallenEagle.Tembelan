@@ -53,6 +53,8 @@ class missionSettings {
 
 
 //FUNCTIONS ====================================================================
+#include "node_modules\@gruppe-adler\replay\ui\defines.hpp"
+#include "node_modules\@gruppe-adler\replay\ui\dialog.hpp"
 class CfgFunctions
 {
 	#include "functions\common\cfgFunctions.hpp"
@@ -67,6 +69,7 @@ class CfgFunctions
     #include "node_modules\grad-loadout\cfgFunctions.hpp"
 	#include "node_modules\grad-civs\cfgFunctions.hpp"
 	#include "node_modules\grad-fortifications\cfgFunctions.hpp"
+    #include "node_modules\@gruppe-adler\replay\cfgFunctions.hpp"
 
 	#include "USER\userFunctions.hpp"
 };

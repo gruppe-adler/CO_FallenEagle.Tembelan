@@ -14,3 +14,9 @@ class mcd_introMusic {
     sound[] = {"@a3\music_f_epa\music\EventTrack01_F_EPA.ogg",1,1,100};
     titles[] = {};
 };
+
+class mcd_missionCompleted {
+    name = "mcd_missionCompleted";
+    sound[] = {"@a3\Data_F_Curator\Music\EventTrack01_F_Curator.ogg",1,1,100};
+    titles[] = {};
+};
