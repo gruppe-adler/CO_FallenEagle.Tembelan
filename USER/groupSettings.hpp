@@ -33,7 +33,76 @@
 */
 
 class BLUFOR {
-
+    class cmd {
+        groupName = "Cmd";
+        class shortrange {
+            defaultChannel = 1;
+        };
+    };
+    class alpha {
+        groupName = "Alpha";
+        class shortrange {
+            defaultChannel = 2;
+            altChannel = 1;
+            altChannelOnlyTL = 0;
+        };
+    };
+    class alpha1 {
+        groupName = "Alpha-1";
+        class shortrange {
+            defaultChannel = 3;
+            altChannel = 2;
+            altChannelOnlyTL = 1;
+        };
+    };
+    class alpha2 {
+        groupName = "Alpha-2";
+        class shortrange {
+            defaultChannel = 4;
+            altChannel = 2;
+            altChannelOnlyTL = 1;
+        };
+    };
+    class bravo {
+        groupName = "Bravo Net";
+        class shortrange {
+            defaultChannel = 5;
+            altChannel = 1;
+            altChannelOnlyTL = 0;
+        };
+    };
+    class bravo1 {
+        groupName = "Bravo-1";
+        class shortrange {
+            defaultChannel = 6;
+            altChannel = 5;
+            altChannelOnlyTL = 1;
+        };
+    };
+    class bravo2 {
+        groupName = "Bravo-2";
+        class shortrange {
+            defaultChannel = 7;
+            altChannel = 5;
+            altChannelOnlyTL = 1;
+        };
+    };
+    class hotel {
+        groupName = "Hotel";
+        class shortrange {
+            defaultChannel = 8;
+            altChannel = 1;
+            altChannelOnlyTL = 0;
+        };
+    };
+    class hotel1: hotel {
+        groupName = "Hotel-1";
+        class shortrange: shortrange {};
+    };
+    class hotel2: hotel {
+        groupName = "Hotel-2";
+        class shortrange: shortrange {};
+    };
 };
 
 class OPFOR {

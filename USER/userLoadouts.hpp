@@ -353,7 +353,7 @@ class co_fallenEagle {
             compass = "ItemCompass";
             watch = "ItemWatch";
             nvgoggles = "NVGoggles_OPFOR";
-            };
+        };
 
         //Team Leader
         class Soldier_TL_F: Soldier_F {

@@ -22,35 +22,43 @@
 //SHORTRANGE KANÄLE ============================================================
 class shortrange {
     class net1 {
+        name = "Platoon Net";
         freq = 50;
     };
 
     class net2 {
+        name = "Alpha Net"
         freq = 60;
     };
 
     class net3 {
-        freq = 70;
+        name = "Alpha-1";
+        freq = 61;
     };
 
     class net4 {
-        freq = 80;
+        name = "Alpha-2";
+        freq = 62;
     };
 
     class net5 {
-        freq = 90;
+        name = "Bravo Net";
+        freq = 70;
     };
 
     class net6 {
-        freq = 100;
+        name = "Bravo-1";
+        freq = 71;
     };
 
     class net7 {
-        freq = 110;
+        name = "Bravo-2";
+        freq = 72;
     };
 
     class net8 {
-        freq = 120;
+        name = "Hotel Net";
+        freq = 80;
     };
 };
 
